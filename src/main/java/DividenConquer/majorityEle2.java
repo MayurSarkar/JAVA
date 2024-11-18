@@ -3,7 +3,11 @@ package DividenConquer;
 public class majorityEle2 {
     private static int countInRange(int[] nums, int num, int lo, int hi) {
         int count = 0;
-        for (int i=lo;i<=hi)
+        for (int i=lo;i<=hi;i++){
+            if(nums[i] == num)
+                count++;
+        }
+        return count;
     }
 
     private static int majorityElementRec(int[] nums, int lo, int hi){
