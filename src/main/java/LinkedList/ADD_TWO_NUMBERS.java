@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.*;
+
 /**
  * Definition for singly-linked list.
  * A ListNode class is used to represent a node in the linked list.
