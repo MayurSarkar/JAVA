@@ -1,6 +1,7 @@
 package BACKTRACKING;
 
 import java.util.*;  // Import utility classes (not directly used here but generally useful for larger programs)
+//Good practice to import
 
 class Solution {
 
