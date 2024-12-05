@@ -4,6 +4,10 @@ class Node {
     int data; // Data stored in the node (can be any type)
     Node next; // Reference to the next node in the list
 
+    Node(int data1, Node next1){
+        this.data=data1;
+        this.next=next1;
+    }
     // Constructor to initialize node
     public Node(int data) {
         this.data = data;
