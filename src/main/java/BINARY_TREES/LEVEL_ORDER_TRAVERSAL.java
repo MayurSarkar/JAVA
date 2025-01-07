@@ -103,6 +103,8 @@ public class LEVEL_ORDER_TRAVERSAL {// TreeNode class represents
             root.right = new TreeNode(3);
             root.left.left = new TreeNode(4);
             root.left.right = new TreeNode(5);
+            root.right.left = new TreeNode(6);
+            root.right.right = new TreeNode(7);
 
 
             // Perform level-order traversal
